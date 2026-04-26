@@ -1,11 +1,7 @@
-//
-// Created by oleksii on 3/22/2026.
-//
-
 #ifndef CPP_MODERN_SPACESHIP_OPERATOR_H
 #define CPP_MODERN_SPACESHIP_OPERATOR_H
+
 #include <string>
-#include <type_traits>
 
 namespace spaceship_operator {
 
@@ -75,4 +71,4 @@ public:
 
 }
 
-#endif //CPP_MODERN_SPACESHIP_OPERATOR_H
+#endif //CPP_SPACESHIP_OPERATOR_H

@@ -7,8 +7,10 @@ function(add_feature_test name)
       cpp-modern-lib
       GTest::gtest_main
   )
-  target_compile_options(${name} PRIVATE -std=c++23)
+  target_compile_features(${name} PRIVATE cxx_std_20)
   gtest_discover_tests(${name})
 endfunction()
 
 add_feature_test(test_spaceship_operator)
+add_feature_test(test_concepts)
+add_feature_test(test_ranges)

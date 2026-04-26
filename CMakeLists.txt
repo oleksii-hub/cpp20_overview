@@ -12,9 +12,9 @@ if(CMAKE_BUILD_TYPE STREQUAL "Debug" AND NOT MSVC)
 endif()
 
 # Header-only library
-add_library(cpp-modern-lib INTERFACE
-        tests/test_spaceship_operator.cpp)
+add_library(cpp-modern-lib INTERFACE)
 target_include_directories(cpp-modern-lib INTERFACE ${CMAKE_SOURCE_DIR}/src)
+target_compile_features(cpp-modern-lib INTERFACE cxx_std_20)
 
 # Compiler-specific warning flags
 if(MSVC)

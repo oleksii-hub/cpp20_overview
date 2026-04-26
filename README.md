@@ -68,7 +68,7 @@ To add another C++20 feature:
 | Clang | 12 | ✅ Supported |
 | MSVC | 17 | ✅ Tested |
 
-**C++ Standard:** C++23 (can be changed to C++20 in CMakeLists.txt)
+**C++ Standard:** C++20 (can be changed to C++20 in CMakeLists.txt)
 
 ## Building Details
 
